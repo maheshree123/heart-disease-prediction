@@ -29,3 +29,57 @@ To assist in early detection of heart disease using predictive analytics and pro
 ---
 
 ## 📂 Project Structure
+HeartDiseaseProject/
+│
+├── frontend/ # Streamlit UI
+├── backend/ # FastAPI (local testing)
+├── training/ # Model training scripts
+├── model/ # Saved ML model
+└── data/ # Dataset
+
+---
+
+## 📊 Model Evaluation
+We evaluated multiple models using:
+- Accuracy  
+- Precision  
+- Recall ⭐ (priority metric)  
+- F1 Score  
+
+👉 **Why Recall?**  
+In healthcare, missing a positive case (false negative) is risky. Hence, recall was prioritized.
+
+---
+
+## 🌐 Live Application
+👉(https://heart-disease-prediction-ndd8wfxrfq3mabpwmivappa.streamlit.app/)
+
+---
+
+## 👥 Team Contribution
+- **Maheshree** → Frontend, Deployment, Integration  
+- **Teammate Name** → Model Training, Data Processing  
+
+---
+
+## 🧩 How It Works
+User Input → Model Prediction → Result Display
+
+
+---
+
+## 📌 Future Improvements
+- Add probability score for prediction  
+- Improve model accuracy using advanced algorithms  
+- Add visualization dashboard  
+- Mobile-friendly UI  
+
+---
+
+## 🎓 Conclusion
+This project demonstrates how machine learning can be applied in healthcare to assist in early diagnosis and decision-making.
+
+---
+
+## ⭐ Acknowledgement
+This project was developed as part of a capstone project to apply real-world machine learning concepts.
