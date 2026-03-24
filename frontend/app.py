@@ -1,9 +1,24 @@
 import joblib
+import numpy as np
+
+if predict_btn:
+    data = [
+        age, sex, cp, trestbps, chol, fbs,
+        restecg, thalach, exang, oldpeak,
+        slope, ca, thal
+    ]
+
+    data = np.array(data).reshape(1, -1)
+
+    prediction = model.predict(data)
+
+    if prediction[0] == 1:
+        st.error("⚠️ Heart Disease Detected")
+    else:
+        st.success("✅ No Heart Disease")
 
 model = joblib.load("model/model.pkl")
 import streamlit as st
-import requests
-
 # -------------------------------
 # PAGE CONFIG
 # -------------------------------
