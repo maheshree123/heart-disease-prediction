@@ -52,13 +52,7 @@ In healthcare, missing a positive case (false negative) is risky. Hence, recall 
 ---
 
 ## 🌐 Live Application
-👉(https://heart-disease-prediction-ndd8wfxrfq3mabpwmivappa.streamlit.app/)
-
----
-
-## 👥 Team Contribution
-- **Maheshree** → Frontend, Deployment, Integration  
-- **Teammate Name** → Model Training, Data Processing  
+👉(https://heart-disease-prediction-ndd8wfxrfq3mabpwmivappa.streamlit.app/)  
 
 ---
 
