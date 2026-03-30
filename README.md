@@ -77,3 +77,15 @@ This project demonstrates how machine learning can be applied in healthcare to a
 
 ## ⭐ Acknowledgement
 This project was developed as part of a capstone project to apply real-world machine learning concepts.
+
+---
+
+## Author
+Maheshree Katla
+
+Dhanashree Tankar
+
+Sujal Yewale
+
+Anchal Pandey 
+
